@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background-color: #121212;
+}
+#navbar #logo{
+  background-color: #f5c518;
+  color: #121212;
+  padding: 0 0.4rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+#navbar h2 a{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#navbar form{
+  display: flex;
+  gap: .5rem;
+}
+
+#navbar input{
+  font-size: 1rem;
+  padding: .3rem .9rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+#navbar form button{
+  background-color: #f5c518;
+  border: 2px solid #f5c518;
+  border-radius: 4px;
+  color: #000;
+  padding: .3rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
